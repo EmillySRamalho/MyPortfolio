@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -13,8 +13,9 @@
     <header>
         <nav>
             <button class="button">Sobre mim</button>
-            <button class="button">Projetos</button>
             <button class="button">Habilidades</button>
+            <button class="button">Projetos</button>
+            
         </nav>
     </header>
 
@@ -26,9 +27,12 @@
             funcionalidade. Apaixonada por transformar ideias em projetos reais, aplico testes para garantir qualidade e
             desempenho, sempre explorando novas tecnologias e refinando cada detalhe para entregar resultados que fazem
             a diferença.</p>
-        <button class="btn">Curriculo</button>
-        <button class="btn"> Contato</button>
-
+        <button class="btn" onclick="window.open('./doc/EmillyRamalho.pdf', '_blank')">
+            Currículo
+        </button>
+        <button class="btn" onclick="window.open('https://wa.me/5583996041033', '_blank')">
+            Contato
+        </button>
         <div class="social-icons">
             <a href="https://github.com/EmillySRamalho" target="_blank">
                 <img src="./icons/github.png" alt="GitHub">
@@ -40,54 +44,134 @@
         </div>
     </div>
     <section class="sobre-mim">
-    <div class="conteudo">
-        <div class="texto">
-            <h2 class="t2">Sobre Mim</h2>       
-            <p class="p3">
-                Olá! Me chamo <span class="highlight">Emilly Ramalho</span> e sou Cientista da Computação pela Universidade Estadual da Paraíba. Ao longo da graduação, tive contato com diferentes áreas da tecnologia, desenvolvendo projetos que envolveram <span class="highlight">Front-end, back-end e banco de dados</span>. Experiências profissionais como analista de qualidade ampliaram minha visão sobre o desenvolvimento de sistemas completos e bem estruturados.<br>
+        <div class="conteudo">
+            <div class="texto">
+                <h2 class="t2">Sobre Mim</h2>
+                <p class="p3">
+                    Olá! Me chamo <span class="highlight">Emilly Ramalho</span> e sou Cientista da Computação pela
+                    Universidade Estadual da Paraíba. Ao longo da graduação, tive contato com diferentes áreas da
+                    tecnologia, desenvolvendo projetos que envolveram <span class="highlight">Front-end, back-end e
+                        banco de dados</span>. Experiências profissionais como analista de qualidade ampliaram minha
+                    visão sobre o desenvolvimento de sistemas completos e bem estruturados.<br>
 
-                Tenho interesse especial pelas áreas de <span class="highlight">UX e UI</span>, o que me motivou a escolher esse tema como foco do meu Trabalho de Conclusão de Curso. Acredito que pensar na experiência do usuário e em interfaces funcionais e acessíveis faz toda a diferença em qualquer produto digital. <br>
+                    Tenho interesse especial pelas áreas de <span class="highlight">UX e UI</span>, o que me motivou a
+                    escolher esse tema como foco do meu Trabalho de Conclusão de Curso. Acredito que pensar na
+                    experiência do usuário e em interfaces funcionais e acessíveis faz toda a diferença em qualquer
+                    produto digital. <br>
 
-                Além da <span class="highlight">tecnologia</span>, sou uma pessoa curiosa e que valoriza <span class="highlight">equilíbrio</span>. Sempre fui apaixonada por leitura, adoro assistir séries, conversar sobre diversos assuntos e aproveitar os momentos da vida com leveza e fé. <span class="highlight">Deus e a espiritualidade</span> são partes importantes da minha caminhada.<br>
+                    Além da <span class="highlight">tecnologia</span>, sou uma pessoa curiosa e que valoriza <span
+                        class="highlight">equilíbrio</span>. Sempre fui apaixonada por leitura, adoro assistir séries,
+                    conversar sobre diversos assuntos e aproveitar os momentos da vida com leveza e fé. <span
+                        class="highlight">Deus e a espiritualidade</span> são partes importantes da minha caminhada.<br>
 
-                Estou em constante aprendizado e <span class="highlight">busco oportunidades</span> que me permitam crescer, contribuir com projetos significativos e aplicar meus conhecimentos de forma <span class="highlight">prática e consciente</span>.
-            </p>
+                    Estou em constante aprendizado e <span class="highlight">busco oportunidades</span> que me permitam
+                    crescer, contribuir com projetos significativos e aplicar meus conhecimentos de forma <span
+                        class="highlight">prática e consciente</span>.
+                </p>
+            </div>
+            <div class="imagem">
+                <img class="foto1" src="./img/emy.jpeg" alt="Emilly">
+            </div>
         </div>
-        <div class="imagem">
-            <img class="foto1" src="./img/emy.jpeg" alt="Emilly">
+    </section>
+    <section>
+        <div class="habilidades" id="habilidades">
+            <h1 class="hab">Minhas Habilidades</h1>
+            <h3 class="descricao">
+                Tecnologias com as quais possuo conhecimentos e habilidades para desenvolvimento de projetos,
+                algumas ainda em processo de aprendizado.
+            </h3>
+
+            <div class="linha">
+                <div class="card"><img src="img/js.png" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="card"><img src="img/c.png" alt="C">
+                    <h3>C</h3>
+                </div>
+                <div class="card"><img src="img/py.png" alt="Python">
+                    <h3>Python</h3>
+                </div>
+                <div class="card"><img src="img/postman.png" alt="Postman">
+                    <h3>Postman</h3>
+                </div>
+                <div class="card"><img src="img/figma.png" alt="Figma">
+                    <h3>Figma</h3>
+                </div>
+                <div class="card"><img src="img/azure.png" alt="Azure">
+                    <h3>Azure</h3>
+                </div>
+                <div class="card"><img src="img/git.jpg" alt="Git">
+                    <h3>Git</h3>
+                </div>
+                <div class="card"><img src="img/cypress.svg" alt="Cypress">
+                    <h3>Cypress</h3>
+                </div>
+                <div class="card"><img src="img/k6.png" alt="K6">
+                    <h3>K6</h3>
+                </div>
+                <div class="card"><img src="img/sql.png" alt="SQL">
+                    <h3>SQL</h3>
+                </div>
+                <div class="card"><img src="img/html.png" alt="HTML">
+                    <h3>HTML</h3>
+                </div>
+                <div class="card"><img src="img/css.svg" alt="CSS">
+                    <h3>CSS</h3>
+                </div>
+                <div class="card"><img src="img/post.png" alt="PostgreSQL">
+                    <h3>PostgreSQL</h3>
+                </div>
+                <div class="card"><img src="img/jm.svg" alt="JMeter">
+                    <h3>JMeter</h3>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
-<section>
-  <div class="habilidades" id="habilidades">
-    <h1 class="hab">Minhas Habilidades</h1>
-    <h3 class="descricao">
-      Tecnologias com as quais possuo conhecimentos e habilidades para desenvolvimento de projetos,
-      algumas ainda em processo de aprendizado.
-    </h3>
-
-    <div class="linha">
-      <div class="card"><img src="img/js.png" alt="JavaScript"><h3>JavaScript</h3></div>
-      <div class="card"><img src="img/c.png" alt="C"><h3>C</h3></div>
-      <div class="card"><img src="img/py.png" alt="Python"><h3>Python</h3></div>
-      <div class="card"><img src="img/postman.png" alt="Postman"><h3>Postman</h3></div>
-      <div class="card"><img src="img/figma.png" alt="Figma"><h3>Figma</h3></div>
-      <div class="card"><img src="img/azure.png" alt="Azure"><h3>Azure</h3></div>
-      <div class="card"><img src="img/git.jpg" alt="Git"><h3>Git</h3></div>
-      <div class="card"><img src="img/cypress.svg" alt="Cypress"><h3>Cypress</h3></div>
-      <div class="card"><img src="img/k6.png" alt="K6"><h3>K6</h3></div>
-      <div class="card"><img src="img/sql.png" alt="SQL"><h3>SQL</h3></div>
-      <div class="card"><img src="img/html.png" alt="HTML"><h3>HTML</h3></div>
-      <div class="card"><img src="img/css.svg" alt="CSS"><h3>CSS</h3></div>
-      <div class="card"><img src="img/post.png" alt="PostgreSQL"><h3>PostgreSQL</h3></div>
-      <div class="card"><img src="img/jm.svg" alt="JMeter"><h3>JMeter</h3></div>
-    </div>
-  </div>
-</section>
-
-
-
-
+    </section>
+    <div class="container2">
+        <h1 class="t3">Meus Principais Projetos</h1>
+        <div class="galeria">
+            <div class="galeria">
+                <div class="item">
+                    <img src="./img/adriellys.png" alt="Adrielly">
+                    <div class="legenda">Portfólio Nutricionista Adrielly</div>
+                </div>
+                <div class="item">
+                    <img src="./img/manu.png" alt="Manu">
+                    <div class="legenda">Portfólio Nutricionista Manu</div>
+                </div>
+                <div class="item">
+                    <img src="./img/dazzle.png" alt="Dazzle">
+                    <div class="legenda">Dazzle</div>
+                </div>
+                <div class="item">
+                    <img src="./img/giy.png" alt="Pixel">
+                    <div class="legenda">Pixel Fofura</div>
+                </div>
+                <div class="item">
+                    <img src="./img/studystream.jpg" alt="Study">
+                    <div class="legenda">Study Stream</div>
+                </div>
+            </div>
+        </div>
+        </section>
 </body>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-box">
+            <h3>Emilly Ramalho</h3>
+            <p>© 2025 Todos os direitos reservados</p>
+        </div>
+        <div class="footer-box">
+            <h3>Desenvolvimento</h3>
+            <p>Site desenvolvido por Emilly Ramalho</p>
+        </div>
+        <div class="footer-box">
+            <h3>Contato</h3>
+            <p>Email: emilly.ramalho.tech@gmail.com</p>
+            <p>Telefone: (83) 99604-1033</p>
+        </div>
+    </div>
+</footer>
 
 </html>
