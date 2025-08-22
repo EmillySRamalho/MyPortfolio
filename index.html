@@ -12,10 +12,15 @@
 <body>
     <header>
         <nav>
-            <button class="button">Sobre mim</button>
-            <button class="button">Habilidades</button>
-            <button class="button">Projetos</button>
-            
+            <button class="button"
+                onclick="document.getElementById('sobre').scrollIntoView({ behavior: 'smooth' })">Sobre mim</button>
+            <button class="button"
+                onclick="document.getElementById('habilidades').scrollIntoView({ behavior: 'smooth' })">Habilidades</button>
+            <button class="button"
+                onclick="document.getElementById('projetos').scrollIntoView({ behavior: 'smooth' })">Meus
+                projetos</button>
+
+
         </nav>
     </header>
 
@@ -43,7 +48,7 @@
 
         </div>
     </div>
-    <section class="sobre-mim">
+    <section class="sobre-mim" id="sobre">
         <div class="conteudo">
             <div class="texto">
                 <h2 class="t2">Sobre Mim</h2>
@@ -128,17 +133,21 @@
             </div>
         </div>
     </section>
-    <div class="container2">
+    <div class="container2" id="projetos">
         <h1 class="t3">Meus Principais Projetos</h1>
         <div class="galeria">
             <div class="galeria">
                 <div class="item">
-                    <img src="./img/adriellys.png" alt="Adrielly">
-                    <div class="legenda">Portfólio Nutricionista Adrielly</div>
+                    <a href="https://adriellycavalcante.vercel.app/" target="_blank">
+                        <img src="./img/adriellys.png" alt="Adrielly">
+                        <div class="legenda">Portfólio Nutricionista Adrielly</div>
+                    </a>
                 </div>
                 <div class="item">
-                    <img src="./img/manu.png" alt="Manu">
-                    <div class="legenda">Portfólio Nutricionista Manu</div>
+                    <a href="https://emanuela-matias.vercel.app/" target="_blank">
+                        <img src="./img/manu.png" alt="Manu">
+                        <div class="legenda">Portfólio Nutricionista Manu</div>
+                    </a>
                 </div>
                 <div class="item">
                     <img src="./img/dazzle.png" alt="Dazzle">
