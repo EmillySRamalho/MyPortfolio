@@ -495,12 +495,10 @@ header {
     }
 
      header {
-        justify-content: center; 
+        display: none;
     }
     .button {
-        width: 100%;
-        max-width: 500px;
-        text-align: center;
+        display: none;
     }
 
 }
