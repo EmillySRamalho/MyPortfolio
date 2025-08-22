@@ -501,4 +501,14 @@ header {
         display: none;
     }
 
+    .p2 {
+        font-size: 0.85em;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .t1 {
+        font-size: 1.9em;
+        text-align: center;
+
 }
