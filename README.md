@@ -5,7 +5,7 @@ Criei este espaço para reunir meus **projetos**, **experimentos** e **aprendiza
 ---
 
 ## 🚀 Sobre mim
-- 🎓 Estudante de **Ciência da Computação** (concluindo em breve)  
+- 🎓 Graduada em **Ciência da Computação** 
 - 💼 Atualmente atuo como **QA** e desenvolvedora em projetos de front-end e back-end  
 - 🧪 Experiência com **testes manuais e automatizados**  
 - 🎨 Interesse especial em **UX/UI** e interfaces minimalistas  
