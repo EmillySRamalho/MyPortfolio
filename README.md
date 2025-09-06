@@ -32,8 +32,11 @@ Criei este espaço para reunir meus **projetos**, **experimentos** e **aprendiza
 - 🎨 **Portfólio Minimalista** → Meu espaço para organizar e expor meus projetos  
 - 🧪 **Testes Automatizados com Cypress** → Exemplos de boas práticas em automação  
 
-
 ---
+
+✅ Status do Projeto
+
+🔄 Em andamento – novas melhorias serão adicionadas em breve.
 
 ## ✨ Objetivo do Portfólio
 Este portfólio foi criado para:
