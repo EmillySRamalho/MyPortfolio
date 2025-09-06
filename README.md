@@ -24,7 +24,6 @@ Criei este espaço para reunir meus **projetos**, **experimentos** e **aprendiza
 ## 📂 Estrutura do Portfólio
 - **Projetos de Desenvolvimento** → Sites, aplicações e desafios de código  
 - **Projetos de QA** → Testes automatizados, relatórios e boas práticas de qualidade  
-- **Artigos/Estudos** → Reflexões e aprendizados sobre desenvolvimento e QA  
 
 ---
 
