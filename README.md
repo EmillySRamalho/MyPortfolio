@@ -1,4 +1,5 @@
 Bem-vindo(a) ao meu portfólio!  
+
 Sou **Desenvolvedora** e **QA (Quality Assurance)**, apaixonada por tecnologia, usabilidade e boas práticas de desenvolvimento.  
 Criei este espaço para reunir meus **projetos**, **experimentos** e **aprendizados** ao longo da minha jornada na área de tecnologia.
 
